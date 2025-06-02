@@ -52,9 +52,9 @@ Password policy changes kicked in when I tried to change the userâ€™s password â
 
 - ![GPO Creation](screenshots1/newOrganisationalUnit.png)
 - ![Control Panel Disabled](screenshots1/ControlPanelDisabled2.png)
+- ![Disabled_ControlPanel_in_Server](screenshots1/implyingDisableControlPanel)
 - ![Wallpaper Applied](screenshots1/WallpaperChanged.png)
-- [Wallpaper-change-setting-in-Server](screenshots1/wallpaper-change-setting-in-server)
-- [Disabled_ControlPanel_in_Server](screenshots1/implyingDisableControlPanel)
+- ![Wallpaper-change-setting-in-Server](screenshots1/wallpaper-change-setting-in-server)
 - ![Password Policy](screenshots1/PasswordPolicyEnforced.png)
 - 
 
