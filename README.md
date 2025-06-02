@@ -38,14 +38,17 @@ Learn to centrally manage user and computer settings using Group Policy Objects 
 ---
 
 ## 🧪 Testing
+On the client VM:
 
-   On the client VM:
-    Logged in using the test user account.
-    Ran gpupdate /force in Command Prompt.
-    Results:
-    Control Panel was successfully disabled — I got a restriction message when I tried to open it.
-    The wallpaper was applied, though it didn’t work the first time (turns out the client couldn't access the shared folder — fixed it by adjusting share permissions).
-    Password policy changes kicked in when I tried to change the user’s password — complexity was enforced as expected.
+- Logged in using the test user account.
+- Ran `gpupdate /force` in Command Prompt.
+
+**Results:**
+
+- Control Panel was successfully disabled — I got a restriction message when I tried to open it.
+- The wallpaper was applied, though it didn’t work the first time (turns out the client couldn't access the shared folder — fixed it by adjusting share permissions).
+- Password policy changes kicked in when I tried to change the user’s password — complexity was enforced as expected.
+
 ---
 
 ## 📸 Screenshots
@@ -67,6 +70,16 @@ Learn to centrally manage user and computer settings using Group Policy Objects 
 - User vs Computer Configuration in GPO
 - Practical impact of GPOs on domain-joined clients
 - Importance of proper OU structure for policy targeting
+
+### 💭 Reflections
+
+This lab really helped me understand how powerful and picky GPOs can be. At first, I was confused why my settings weren’t applying — but I learned that:
+
+- GPOs must be linked to the correct **Organizational Unit (OU)**, not just the domain.
+- **Permissions and file paths** matter a lot, especially for things like wallpapers.
+- There’s a clear difference between **User Configuration** and **Computer Configuration** — and getting them mixed up won’t throw errors, just silent failure.
+
+Overall, this was a solid hands-on way to see how real sysadmins manage centralized settings. Definitely something I’ll use again in enterprise environments.
 
 ---
 
