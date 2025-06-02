@@ -2,19 +2,19 @@
 Use Group Policy Objects (GPOs) to control user and computer settings centrally in a Windows domain environment.
 # 🧪 Lab 2: Group Policy Management
 
-## 🎯 Objective
+## Objective
 Learn to centrally manage user and computer settings using Group Policy Objects (GPOs) in a Windows domain environment.
 
 ---
 
-## 🛠️ Lab Environment
+## Lab Environment
 - **Domain Controller**: Windows Server 2016
 - **Client VM**: Windows 10 (joined to domain)
 - **Test User/Computer**: Placed in a custom Organizational Unit (Lab 2 Users)
 
 ---
 
-## 🔧 Tasks Performed
+## Tasks Performed
 
 ### 1. Created and Linked a GPO
 - Created an Organizational Unit (OU) named `Lab2Users`
@@ -39,7 +39,7 @@ Learn to centrally manage user and computer settings using Group Policy Objects 
 
 ## 🧪 Testing
 
-    On the client VM:
+   On the client VM:
     Logged in using the test user account.
     Ran gpupdate /force in Command Prompt.
     Results:
