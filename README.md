@@ -39,13 +39,13 @@ Learn to centrally manage user and computer settings using Group Policy Objects 
 
 ## 🧪 Testing
 
-On the client VM:
-Logged in using the test user account.
-Ran gpupdate /force in Command Prompt.
-Results:
-Control Panel was successfully disabled — I got a restriction message when I tried to open it.
-The wallpaper was applied, though it didn’t work the first time (turns out the client couldn't access the shared folder — fixed it by adjusting share permissions).
-Password policy changes kicked in when I tried to change the user’s password — complexity was enforced as expected.
+    On the client VM:
+    Logged in using the test user account.
+    Ran gpupdate /force in Command Prompt.
+    Results:
+    Control Panel was successfully disabled — I got a restriction message when I tried to open it.
+    The wallpaper was applied, though it didn’t work the first time (turns out the client couldn't access the shared folder — fixed it by adjusting share permissions).
+    Password policy changes kicked in when I tried to change the user’s password — complexity was enforced as expected.
 ---
 
 ## 📸 Screenshots
