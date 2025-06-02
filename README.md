@@ -51,7 +51,7 @@ Password policy changes kicked in when I tried to change the user’s password �
 ## 📸 Screenshots
 
 - ![GPO Creation](screenshots/gpo-creation.png)
-- ![Control Panel Disabled](screenshots/control-panel-disabled.png)
+- ![Control Panel Disabled](screenshots/ControlPanelDisabled.png)(screenshots/ControlPanelDisabled2.png)
 - ![Wallpaper Applied](screenshots/desktop-wallpaper.png)
 - ![Password Policy](screenshots/password-policy.png)
 
