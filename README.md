@@ -51,12 +51,12 @@ Password policy changes kicked in when I tried to change the user’s password �
 ## 📸 Screenshots
 
 - [GPO Creation](screenshots1/newOrganisationalUnit.png)
-- ![Control Panel Disabled](screenshots1/ControlPanelDisabled.png)
-- ![Control_Panel_Disabled2](screenshots1/ControlPanelDisabled2.png)
-- ![Disabled_ControlPanel_in_Server](screenshots1/implyingDisableControlPanel.png)
-- ![Wallpaper Applied](screenshots1/WallpaperChanged.png)
-- ![Wallpaper-change-setting-in-Server](screenshots1/Wallpaper-change-setting-in-server.png)
-- ![Password Policy](screenshots1/PasswordPolicyEnforced.png)
+- [Control Panel Disabled](screenshots1/ControlPanelDisabled.png)
+- [Control_Panel_Disabled2](screenshots1/ControlPanelDisabled2.png)
+- [Disabled_ControlPanel_in_Server](screenshots1/implyingDisableControlPanel.png)
+- [Wallpaper Applied](screenshots1/WallpaperChanged.png)
+- [Wallpaper-change-setting-in-Server](screenshots1/Wallpaper-change-setting-in-server.png)
+- [Password Policy](screenshots1/PasswordPolicyEnforced.png)
 - 
 
 ---
